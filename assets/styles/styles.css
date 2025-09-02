@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    gap: 11px;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* left side */
+.introduceTextSide {
+    margin: 2vh 0px 2vh 11px;
+    background-color: white;
+    flex: 0 0 31%;
+    height: 96vh;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.introduceTextSide img {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+}
+
+.introduceTextSide h1 {
+    font-size: 67px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Great Vibes', cursive;
+}
