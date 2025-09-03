@@ -7,27 +7,44 @@
 
 body {
     font-family:'Times New Roman', Times, serif;
-    display: flex;
-    gap: 11px;
-    background-color: whitesmoke;
     margin: 0;
     padding: 0;
     text-align: justify;
 }
 
+main {
+    display: flex;
+    gap: 7px;
+    background-color: rgb(250, 199, 199);
+    height: 100vh;
+}
+
 /* left side */
 .introduceTextSide {
-    margin: 2vh 0px 2vh 11px;
+    margin: 1vh 0px 1vh 1vh;
     background-color: white;
     flex: 0 0 31%;
-    height: 96vh;
+    height: 98vh;
     border-radius: 25px;
     text-align: center;
 }
 
-.introduceTextSide img {
+.introduceTextSide .illustration {
     border-radius: 25px 25px 0px 0px;
     width: 100%;
+}
+
+.introduceTextSide .myPhoto {
+    width: 210px;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: -150px auto 0px auto;
+}
+
+.introduceTextSide .myPhoto img {
+    width: 210px;
+    height: 210px;
 }
 
 .introduceTextSide h1 {
@@ -35,4 +52,20 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Great Vibes', cursive;
+    background-color: red;
+}
+
+/* right side */
+.rightSide {
+    flex: 1;
+    background-color: rgba(124, 162, 170, 0.425);
+    margin: 1vh 1vh 1vh 0px;
+    border-radius: 25px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.rightSide::-webkit-scrollbar {
+    display: none;
 }
