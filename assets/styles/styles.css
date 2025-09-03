@@ -22,7 +22,7 @@ main {
 /* left side */
 .introduceTextSide {
     margin: 1vh 0px 1vh 1vh;
-    background-color: white;
+    background-color: rgba(124, 162, 170, 0.425);;
     flex: 0 0 31%;
     height: 98vh;
     border-radius: 25px;
@@ -39,7 +39,7 @@ main {
     height: 210px;
     overflow: hidden;
     border-radius: 50%;
-    margin: -150px auto 0px auto;
+    margin: -160px auto 0px auto;
 }
 
 .introduceTextSide .myPhoto img {
@@ -48,11 +48,28 @@ main {
 }
 
 .introduceTextSide h1 {
-    font-size: 67px;
+    font-size: 61px;
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: 'Great Vibes', cursive;
-    background-color: red;
+    background: linear-gradient(to bottom, rgba(34, 202, 235, 0.89) 0%, rgb(158, 113, 113) 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.introduceTextSide h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.introduceTextSide p {
+    margin: 7px 23px;
+    text-align: justify;
+    text-indent: 4vh;
+    line-height: 1.5;
 }
 
 /* right side */
