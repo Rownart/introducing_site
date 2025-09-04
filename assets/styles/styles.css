@@ -20,7 +20,7 @@ main {
 }
 
 /* left side */
-.introduceTextSide {
+.leftSide {
     margin: 1vh 0px 1vh 1vh;
     background-color: rgba(124, 162, 170, 0.425);;
     flex: 0 0 31%;
@@ -29,12 +29,12 @@ main {
     text-align: center;
 }
 
-.introduceTextSide .illustration {
+.leftSide .illustration {
     border-radius: 25px 25px 0px 0px;
     width: 100%;
 }
 
-.introduceTextSide .myPhoto {
+.leftSide .myPhoto {
     width: 210px;
     height: 210px;
     overflow: hidden;
@@ -42,12 +42,12 @@ main {
     margin: -160px auto 0px auto;
 }
 
-.introduceTextSide .myPhoto img {
+.leftSide .myPhoto img {
     width: 210px;
     height: 210px;
 }
 
-.introduceTextSide h1 {
+.leftSide h1 {
     font-size: 61px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -59,13 +59,13 @@ main {
     color: transparent;
 }
 
-.introduceTextSide h2 {
+.leftSide h2 {
     margin: 0;
     font-weight: normal;
     font-size: 23px;
 }
 
-.introduceTextSide p {
+.leftSide p {
     margin: 7px 23px;
     text-align: justify;
     text-indent: 4vh;
@@ -85,4 +85,68 @@ main {
 
 .rightSide::-webkit-scrollbar {
     display: none;
+}
+
+.rightSide h2 {
+    font-size: 41px;
+    font-family: fantasy;
+    font-style: italic;
+    text-align: center;
+    margin: 3vh 0px 7vh 0px;
+    font-weight: normal;
+}
+
+.rightSide aside {
+    display: flex;
+    gap: 4vh;
+    margin: 4vh;
+}
+
+.rightSide aside .skills {
+    width: 33%;
+    background-color: white;
+    padding: 13px;
+    border-radius: 25px;
+    box-shadow: 7px 7px rgba(97, 94, 94, 0.548);
+}
+
+.rightSide aside .skills .imgSkill {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.rightSide aside .skills .imgSkill img {
+    width: 90px;
+    height: 90px;
+}
+
+.rightSide aside .skills h3 {
+    margin: auto;
+    width: fit-content;
+}
+
+.rightSide aside .skills p {
+    text-indent: 4vh;
+    line-height: 1.5;
+}
+
+footer {
+    margin: 7vh 4vh auto  4vh;
+    text-align: center;
+    line-height: 1.25;
+}
+
+footer .footerTitle {
+    font-weight: bold;
+    font-size: large;
+}
+
+footer .contactMessage {
+    opacity: 0.9;
+}
+
+.footerCopyright {
+    opacity: 0.8;
 }
