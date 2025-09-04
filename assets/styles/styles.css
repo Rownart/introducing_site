@@ -35,16 +35,20 @@ main {
 }
 
 .leftSide .myPhoto {
-    width: 210px;
-    height: 210px;
+    width: 29vh;
+    height: 29vh;
     overflow: hidden;
     border-radius: 50%;
-    margin: -160px auto 0px auto;
+    margin: -23vh auto 0px auto;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 .leftSide .myPhoto img {
-    width: 210px;
-    height: 210px;
+    width: 29vh;
+    height: 29vh;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 .leftSide h1 {
@@ -98,16 +102,17 @@ main {
 
 .rightSide aside {
     display: flex;
-    gap: 4vh;
-    margin: 4vh;
+    gap: 3vh;
+    margin: 3vh;
 }
 
 .rightSide aside .skills {
-    width: 33%;
+    width: calc((100% - 12vh) / 3);
     background-color: white;
     padding: 13px;
     border-radius: 25px;
     box-shadow: 7px 7px rgba(97, 94, 94, 0.548);
+    min-width: 230px;
 }
 
 .rightSide aside .skills .imgSkill {
